@@ -1,0 +1,26 @@
+set(CPU_SRCS
+#if (CPUS["Z80"]~=null) then
+	${MAME_DIR}/src/devices/cpu/z80/z80.cpp
+	${MAME_DIR}/src/devices/cpu/z80/z80.h
+	${MAME_DIR}/src/devices/cpu/z80/tmpz84c011.cpp
+	${MAME_DIR}/src/devices/cpu/z80/tmpz84c011.h
+	${MAME_DIR}/src/devices/cpu/z80/tmpz84c015.cpp
+	${MAME_DIR}/src/devices/cpu/z80/tmpz84c015.h
+	${MAME_DIR}/src/devices/cpu/z80/kc82.cpp
+	${MAME_DIR}/src/devices/cpu/z80/kc82.h
+	${MAME_DIR}/src/devices/cpu/z80/kl5c80a12.cpp
+	${MAME_DIR}/src/devices/cpu/z80/kl5c80a12.h
+	${MAME_DIR}/src/devices/cpu/z80/kl5c80a16.cpp
+	${MAME_DIR}/src/devices/cpu/z80/kl5c80a16.h
+	${MAME_DIR}/src/devices/cpu/z80/kp63.cpp
+	${MAME_DIR}/src/devices/cpu/z80/kp63.h
+	${MAME_DIR}/src/devices/cpu/z80/kp69.cpp
+	${MAME_DIR}/src/devices/cpu/z80/kp69.h
+	${MAME_DIR}/src/devices/cpu/z80/ky80.cpp
+	${MAME_DIR}/src/devices/cpu/z80/ky80.h
+	${MAME_DIR}/src/devices/cpu/z80/lz8420m.cpp
+	${MAME_DIR}/src/devices/cpu/z80/lz8420m.h
+#end
+	${MAME_DIR}/src/devices/cpu/z80/z80dasm.cpp
+	${MAME_DIR}/src/devices/cpu/z80/z80dasm.h
+)
